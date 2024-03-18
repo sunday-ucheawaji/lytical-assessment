@@ -32,7 +32,7 @@ interface Props {
 const TransactionTable = ({ data, handleCheckbox, handleCheckAll }: Props) => {
   return (
     <div>
-      <Table.Root variant="ghost" className="hidden md:block h-[400px]">
+      <Table.Root variant="ghost" className="hidden md:block h-[300px]">
         <Table.Header>
           <Table.Row>
             <Table.ColumnHeaderCell>
